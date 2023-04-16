@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import Me from '../assets/me.png';
 
 const Contact = () => {
   const formRef = useRef();
@@ -125,14 +126,19 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-      </motion.div>
-
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div>
+      </motion.div> 
+ 
+         <motion.img 
+          animate={{ y: [10, 20, 10] }}
+          transition={{ repeat: Infinity, repeatDelay: 2 }}
+         src={Me} style={{
+          height: '20%',
+           display: 'flex',
+           justifyContent: 'center',
+           alignItems: 'center'
+         
+        }} alt="Example" /> 
+   
     </div>
   );
 };

@@ -43,7 +43,7 @@ const ExperienceCard = ({ experience }) => {
             typeSpeed={10} 
           /> 
         </h3>
-        <p
+        <h6
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
@@ -53,7 +53,7 @@ const ExperienceCard = ({ experience }) => {
               text={experience.company_name}
               typeSpeed={10} 
             />  
-        </p>
+        </h6>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>

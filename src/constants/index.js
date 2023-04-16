@@ -221,7 +221,7 @@ import {
       name: "Kavinda Senarathne",
       designation: "Senior Software Engineer",
       company: "99x",
-      image: "https://media.licdn.com/dms/image/C5603AQEl6AA8hPY5hA/profile-displayphoto-shrink_100_100/0/1628584546555?e=1686787200&v=beta&t=lhTSzuXhG-T57mjJ6c5XxSmVr2hL0woRpyc3Px_HKPQ",
+      image: "https://media.licdn.com/dms/image/D5603AQHyOfRXkR5hSw/profile-displayphoto-shrink_200_200/0/1681462860637?e=1687392000&v=beta&t=y2hwiOEtXIFlhrSSqXOhQayzEKzhIj7vHLzF9R5YdAk",
       linkedin: "https://www.linkedin.com/in/kavindasenarathne1994/"
     },
   ];
